@@ -55,7 +55,7 @@ function init() {
             {
                 type: 'input',
                 name: 'test',
-                message: questions [5],
+                message: questions [6],
             },
             {
                 type: 'input',
