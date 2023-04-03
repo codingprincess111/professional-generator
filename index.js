@@ -45,39 +45,39 @@ function init() {
             {
                 type: 'input',
                 name: 'usage',
-                message: questions [4],
+                message: questions [3],
             },
             {
                 type: 'input',
                 name: 'contributing',
-                message: questions [5],
+                message: questions [4],
             },
             {
                 type: 'input',
                 name: 'test',
-                message: questions [6],
+                message: questions [5],
             },
             {
                 type: 'input',
                 name: 'license',
-                message: 'Which license do you want to use?',
+                message: questions [6],
                 choices: [
                     'MIT License',
                     'GNU GPL v2',
                     'Mozilla Public License 2.0',
                     'None',
-                ]
+                ],
             },
             {
                 type: 'input',
                 name: 'githubUsername',
-                message: questions [8],
+                message: questions [7],
 
             },
             {
                 type: 'input',
                 name: 'email',
-                message: questions [9]
+                message: questions [8]
 
             }
         ])
