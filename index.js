@@ -40,7 +40,7 @@ function init() {
             {
                 type: 'input',
                 name: 'installation',
-                message: questions [3],
+                message: questions [2],
             },
             {
                 type: 'input',
@@ -77,9 +77,9 @@ function init() {
             {
                 type: 'input',
                 name: 'email',
-                message: questions [8]
+                message: questions [8],
 
-            }
+            },
         ])
             
 }
