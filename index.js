@@ -69,9 +69,18 @@ function init() {
                 ]
             },
             {
-                
+                type: 'input',
+                name: 'githubUsername',
+                message: questions [7],
+
+            },
+            {
+                type: 'input',
+                name: 'email',
+                message: questions [8]
+
             }
-        ]) 
+        ])
             
 }
 
