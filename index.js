@@ -71,13 +71,13 @@ function init() {
             {
                 type: 'input',
                 name: 'githubUsername',
-                message: questions [7],
+                message: questions [8],
 
             },
             {
                 type: 'input',
                 name: 'email',
-                message: questions [8]
+                message: questions [9]
 
             }
         ])
