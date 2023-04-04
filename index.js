@@ -58,14 +58,12 @@ function init() {
                 message: questions [5],
             },
             {
-                type: 'input',
+                type: 'list',
                 name: 'license',
                 message: questions [6],
                 choices: [
-                    'MIT License',
-                    'GNU GPL v2',
-                    'Mozilla Public License 2.0',
-                    'None',
+                    new inquirer.Separator(),
+                    "MIT License","GNU GPL v2","Mozilla Public License 2.0","None",
                 ],
             },
             {
@@ -81,6 +79,11 @@ function init() {
 
             },
         ])
+
+
+        .then((answers) => {
+            writeToFile('README.md',answers);
+        })
             
 }
 
